@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam District Secretariat",
+        "jobRole": "Administrative Officer",
+        "vacancy": "Available",
+        "qualification": "Degree + NVQ Level 5",
+        "contact": "032 2245678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83259591,
+          8.026989238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Divisional Secretariat",
+        "jobRole": "Data Entry Operator",
+        "vacancy": "Not Available",
+        "qualification": "A/L + ICT Diploma",
+        "contact": "032 2256789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83550415,
+          8.030347468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Urban Council",
+        "jobRole": "Public Health Inspector",
+        "vacancy": "Available",
+        "qualification": "Diploma in Public Health",
+        "contact": "032 2267890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83386191,
+          8.026957366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Post Office",
+        "jobRole": "Postal Clerk",
+        "vacancy": "Available",
+        "qualification": "O/L + NVQ Level 2",
+        "contact": "077 1234567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83167181,
+          8.03019889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Police Station",
+        "jobRole": "Civil Defense Officer",
+        "vacancy": "Not Available",
+        "qualification": "O/L + Training Certificate",
+        "contact": "032 2289012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83445695,
+          8.030089485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Anamaduwa Court Complex",
+        "jobRole": "Security",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "032 2290123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.00707759,
+          7.911494618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Court Complex",
+        "jobRole": "Court Clerk",
+        "vacancy": "Available",
+        "qualification": "A/L + Law Diploma",
+        "contact": "032 2301234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.79696407,
+          7.597165656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Electricity Board",
+        "jobRole": "Technical Officer",
+        "vacancy": "Not Available",
+        "qualification": "Diploma in Electrical Engineering",
+        "contact": "077 2345678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83912403,
+          8.026398512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Fisheries Office",
+        "jobRole": "Fisheries Inspector",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Fisheries)",
+        "contact": "032 2323456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83564189,
+          8.024906982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Government Institutions",
+        "industry": "Puttalam Education Zone",
+        "jobRole": "School Supervisor",
+        "vacancy": "Available",
+        "qualification": "Degree in Education",
+        "contact": "032 2334567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83500056,
+          8.027314957
+        ]
+      }
+    }
+  ]
+}

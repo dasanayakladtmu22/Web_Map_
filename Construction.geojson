@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "MAGA Engineering",
+        "jobRole": "Site Supervisor",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Construction)",
+        "contact": "032 2690123"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.41468113, 8.382557437] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Lanka Tiles",
+        "jobRole": "Mason",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 2 (Masonry)",
+        "contact": "032 2701234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83914371, 8.009585304] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Puttalam Housing Project",
+        "jobRole": "Civil Engineer",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Civil Engineering",
+        "contact": "032 2712345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84316641, 8.034736702] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "ABC Contractors",
+        "jobRole": "Electrician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Electrical)",
+        "contact": "032 2723456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84421399, 8.034550169] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Bridge Project",
+        "jobRole": "Surveyor",
+        "vacancy": "Not Available",
+        "qualification": "Diploma in Surveying",
+        "contact": "032 2734567"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.29732981, 8.299502054] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "AS Coconut Land",
+        "jobRole": "Carpenter",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Carpentry)",
+        "contact": "032 2745678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.77100532, 7.880420034] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Insee Puttalam Cement Works",
+        "jobRole": "Concrete Mixer Oper.",
+        "vacancy": "Available",
+        "qualification": "O/L",
+        "contact": "032 2756789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.86818906, 7.988055932] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Puttalam Warehouse Project",
+        "jobRole": "Safety Officer",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 4 (Safety)",
+        "contact": "032 2767890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82907148, 8.034983507] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Urban Development Authority",
+        "jobRole": "Architect",
+        "vacancy": "Available",
+        "qualification": "Degree in T&CP",
+        "contact": "032 2778901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83260664, 8.027499176] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Construction",
+        "industry": "Semmanthaluwa Housing scheme",
+        "jobRole": "Mason",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 2 (Masonry)",
+        "contact": "032 2789012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84694296, 8.051564002] }
+    }
+  ]
+}

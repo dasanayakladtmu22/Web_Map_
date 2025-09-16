@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Puttalam Central College",
+        "jobRole": "Physics Teacher",
+        "vacancy": "Available",
+        "qualification": "Degree in Physics",
+        "contact": "032 2890123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84060981, 8.028796625] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "St. Andrew's College",
+        "jobRole": "English Teacher",
+        "vacancy": "Not Available",
+        "qualification": "Degree in English",
+        "contact": "032 2901234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83357134, 8.031915284] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Kalpitiya Int'l School",
+        "jobRole": "IT Instructor",
+        "vacancy": "Available",
+        "qualification": "Diploma in IT",
+        "contact": "032 2912345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76178539, 8.231692115] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Puttalam Vocational Center",
+        "jobRole": "NVQ Assessor",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 6 (Relevant Field)",
+        "contact": "032 2923456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82959163, 7.962576495] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Muslim Ladies College",
+        "jobRole": "Math Tutor",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Mathematics",
+        "contact": "032 2934567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84307181, 8.04000421] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "FATHIMA MUSLIM LADIES COLLEGE",
+        "jobRole": "Science Teacher",
+        "vacancy": "Available",
+        "qualification": "Degree",
+        "contact": "032 2945678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83204256, 8.033460156] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Music Academy",
+        "jobRole": "Music Teacher",
+        "vacancy": "Available",
+        "qualification": "Diploma in Music",
+        "contact": "032 2956789"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.63123963, 7.386157223] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Technical College",
+        "jobRole": "Electrical Instructor",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 5 (Electrical)",
+        "contact": "032 2967890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83325017, 8.042480122] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "Lanka English Academy",
+        "jobRole": "IELTS Trainer",
+        "vacancy": "Available",
+        "qualification": "CELTA Certification",
+        "contact": "032 2978901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82630976, 8.037418263] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Education Centers",
+        "industry": "ICT CLASS",
+        "jobRole": "IT Instructor",
+        "vacancy": "Available",
+        "qualification": "Diploma in IT",
+        "contact": "032 2989012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82553729, 8.038969284] }
+    }
+  ]
+}

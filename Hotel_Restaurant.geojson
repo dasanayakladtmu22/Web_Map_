@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Pearl Hotel, Puttalam",
+        "jobRole": "Front Desk Receptionist",
+        "vacancy": "Available",
+        "qualification": "O/L + Hospitality NVQ Level 3",
+        "contact": "032 2590123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.81831578, 7.411765501] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Lagoon Resort, Kalpitiya",
+        "jobRole": "Chef",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Culinary Arts)",
+        "contact": "077 5678901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.70903671, 8.145521206] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Puttalam Rest House",
+        "jobRole": "Housekeeping Supervisor",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 3 (Housekeeping)",
+        "contact": "032 2612345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83207658, 8.02904928] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Barista Cafe",
+        "jobRole": "Barista",
+        "vacancy": "Available",
+        "qualification": "O/L + Barista Training",
+        "contact": "078 7890123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84770531, 7.224907771] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Sea View Guest House",
+        "jobRole": "Night Auditor",
+        "vacancy": "Available",
+        "qualification": "A/L + Accounting Basics",
+        "contact": "032 2634567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.81199974, 7.690598985] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Golden Star Restaurant",
+        "jobRole": "Waiter",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "077 6789012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82847923, 7.461900315] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Mango Mango Beach Resort",
+        "jobRole": "Sous Chef",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 5 (Culinary)",
+        "contact": "078 8901234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83671898, 7.679711338] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "City Hotel",
+        "jobRole": "Security Officer",
+        "vacancy": "Available",
+        "qualification": "O/L + Security Training",
+        "contact": "032 2667890"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.35032982, 8.365072199] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Dutch Bay Cafe",
+        "jobRole": "Cashier",
+        "vacancy": "Available",
+        "qualification": "O/L + Basic Math Skills",
+        "contact": "077 7890123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.75729224, 8.277120366] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hotel/Restaurant",
+        "industry": "Dinuda Resort - Kalpitiya",
+        "jobRole": "Waiter",
+        "vacancy": "Available",
+        "qualification": "O/L",
+        "contact": "032 2689012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.73892447, 8.232950852] }
+    }
+  ]
+}
+

@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Fishery Harbour Kalpitiya",
+        "jobRole": "Boat Mechanic",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Mechanics)",
+        "contact": "077 2345678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.7669408, 8.238171784] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Kalpitiya Fisheries Cooperative",
+        "jobRole": "Fish Packer",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "078 5678901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76599666, 8.236600298] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Boat Trip Kalpitiya",
+        "jobRole": "Ice Plant Operator",
+        "vacancy": "Not Available",
+        "qualification": "O/L",
+        "contact": "032 2545678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76818534, 8.232353009] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Mundal Lake Fish Farm",
+        "jobRole": "Aquaculture Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 2 (Aquaculture)",
+        "contact": "077 3456789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82077809, 7.912381618] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Lanka Tuna Processing",
+        "jobRole": "Quality Inspector",
+        "vacancy": "Available",
+        "qualification": "O/L + Food Science NVQ Level 3",
+        "contact": "032 2567890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.812626, 7.653038439] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Fishermen's Association",
+        "jobRole": "Net Repair Worker",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "078 6789012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82926243, 8.030539459] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Fisheries",
+        "industry": "Blue Ocean Crab Exporters",
+        "jobRole": "Crab Farm Supervisor",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 4 (Fisheries)",
+        "contact": "077 4567890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.8838046, 7.149794155] }
+    }
+  ]
+}

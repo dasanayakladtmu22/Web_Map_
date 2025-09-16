@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Puttalam General Hospital",
+        "jobRole": "Staff Nurse",
+        "vacancy": "Available",
+        "qualification": "Diploma in Nursing",
+        "contact": "032 2790123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83877775, 8.028194052] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Kalpitiya Base Hospital",
+        "jobRole": "Lab Technician",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 4 (Lab Tech)",
+        "contact": "032 2801234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76655282, 8.234289328] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Chilaw Cardiology Center",
+        "jobRole": "ECG Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Cardiology)",
+        "contact": "032 2812345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.92310887, 7.048477053] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Puttalam Dental Hospital",
+        "jobRole": "Dental Assistant",
+        "vacancy": "Available",
+        "qualification": "O/L + NVQ Level 2",
+        "contact": "032 2823456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83299076, 8.029145645] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Ayurveda Hospital",
+        "jobRole": "Ayurvedic Doctor",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Ayurveda",
+        "contact": "032 2834567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83429674, 8.034944505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Puttalam Clinic",
+        "jobRole": "Pharmacist",
+        "vacancy": "Available",
+        "qualification": "Diploma in Pharmacy",
+        "contact": "032 2845678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83352426, 8.03447707] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Lanka Hospitals (Branch)",
+        "jobRole": "Physiotherapist",
+        "vacancy": "Available",
+        "qualification": "Degree in Physiotherapy",
+        "contact": "032 2856789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82798818, 8.037834089] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "NICU Unit",
+        "jobRole": "Pediatric Nurse",
+        "vacancy": "Not Available",
+        "qualification": "Specialized Nursing Diploma",
+        "contact": "032 2867890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83893611, 8.028796625] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "Cancer Center",
+        "jobRole": "Radiographer",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 5 (Radiology)",
+        "contact": "032 2878901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82374408, 8.041204884] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Hospital",
+        "industry": "ICU, Base Hospital",
+        "jobRole": "Paramedic",
+        "vacancy": "Available",
+        "qualification": "Degree",
+        "contact": "032 2889012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83833529, 8.029306561] }
+    }
+  ]
+}

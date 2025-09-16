@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Janatha Cleaners",
+        "jobRole": "Sanitation Worker",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "032 3290123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82762326, 8.033577115] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Green Earth Services",
+        "jobRole": "Garden Maintenance",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 2 (Horticulture)",
+        "contact": "032 3301234"
+      },
+      "geometry": { "type": "Point", "coordinates": [80.02893609, 7.224616182] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Crystal Clean",
+        "jobRole": "Hotel Cleaner",
+        "vacancy": "Not Available",
+        "qualification": "O/L",
+        "contact": "032 3312345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84348428, 7.254462209] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Puttalam Pradeshiya Sabha",
+        "jobRole": "Street Sweeper",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "032 3323456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82292654, 7.914331755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Ocean View Resort",
+        "jobRole": "Pool Maintenance",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Maintenance)",
+        "contact": "032 3334567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82327467, 7.516645987] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "City Waste Management",
+        "jobRole": "Garbage Collector",
+        "vacancy": "Not Available",
+        "qualification": "No formal education required",
+        "contact": "032 3345678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82292654, 7.914331755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Central Environmental Authority puttalm",
+        "jobRole": "Pest Control Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Pest Control)",
+        "contact": "032 3356789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83435935, 8.01987862] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Hospital Sanitation",
+        "jobRole": "Medical Waste Handler",
+        "vacancy": "Available",
+        "qualification": "O/L + Training Certificate",
+        "contact": "032 3367890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83826465, 8.02873886] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "School Maintenance",
+        "jobRole": "Handyman",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 2 (Maintenance)",
+        "contact": "032 3378901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83829684, 8.021249101] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Cleaning & Maintenance",
+        "industry": "Office Cleaners Ltd",
+        "jobRole": "Janitor",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "032 3389012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84449274, 8.023825381] }
+    }
+  ]
+}

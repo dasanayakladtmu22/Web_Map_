@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Puttalam Bus Depot",
+        "jobRole": "Bus Conductor",
+        "vacancy": "Available",
+        "qualification": "O/L",
+        "contact": "032 3190123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83340724, 8.02827604] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Lanka Logistics",
+        "jobRole": "Warehouse Manager",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 5 (Logistics)",
+        "contact": "032 3201234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83738228, 8.031723412] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "DHL Express",
+        "jobRole": "Delivery Rider",
+        "vacancy": "Available",
+        "qualification": "O/L + Bike License",
+        "contact": "032 3212345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82970043, 8.036567742] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Hayleys Advantis",
+        "jobRole": "Forklift Operator",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Heavy Equipment)",
+        "contact": "032 3223456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83141704, 8.03248831] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Trans Express Puttalam Branch",
+        "jobRole": "Customs Officer",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Customs Management",
+        "contact": "032 3234567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83832641, 8.025859145] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Uber Sri Lanka",
+        "jobRole": "Driver Partner",
+        "vacancy": "Available",
+        "qualification": "O/L + Driving License",
+        "contact": "032 3245678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84566362, 7.217980354] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Cargo Boat Service",
+        "jobRole": "Boat Captain",
+        "vacancy": "Available",
+        "qualification": "Merchant Navy Certification",
+        "contact": "032 3256789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76676277, 8.237594424] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Jetwing Travels",
+        "jobRole": "Travel Coordinator",
+        "vacancy": "Not Available",
+        "qualification": "Diploma in Tourism",
+        "contact": "032 3267890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.76600244, 8.239023182] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Truckers",
+        "jobRole": "Heavy Truck Driver",
+        "vacancy": "Available",
+        "qualification": "O/L + Heavy Vehicle License",
+        "contact": "032 3278901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.85133646, 6.938602428] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Transport/Logistics",
+        "industry": "Airport Shuttle",
+        "jobRole": "Dispatcher",
+        "vacancy": "Available",
+        "qualification": "Degree in Customs Management",
+        "contact": "032 3289012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.87010784, 7.144873832] }
+    }
+  ]
+}

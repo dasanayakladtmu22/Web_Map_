@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "TechSolutions Lanka",
+        "jobRole": "Java Developer",
+        "vacancy": "Available",
+        "qualification": "Degree in Computer Science",
+        "contact": "032 3090123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83310546, 8.029053884] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "IT Center",
+        "jobRole": "Network Engineer",
+        "vacancy": "Not Available",
+        "qualification": "CCNA Certified",
+        "contact": "032 3101234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83246173, 8.037255271] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "CodeGen",
+        "jobRole": "UI/UX Designer",
+        "vacancy": "Available",
+        "qualification": "Diploma in Graphic Design",
+        "contact": "032 3112345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82510037, 8.041189614] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Virtusa (Branch)",
+        "jobRole": "QA Tester",
+        "vacancy": "Available",
+        "qualification": "ISTQB Certified",
+        "contact": "032 3123456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.91818385, 7.187761062] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Dialog Axiata",
+        "jobRole": "Data Analyst",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Statistics",
+        "contact": "032 3134567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.8279764, 8.034114271] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "E- World Satellite Systems",
+        "jobRole": "Mobile App Developer",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 5 (Software Dev)",
+        "contact": "032 3145678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83104486, 8.032563235] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Puttalam Tech Park",
+        "jobRole": "System Administrator",
+        "vacancy": "Available",
+        "qualification": "MCSE Certified",
+        "contact": "032 3156789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83269916, 8.038070422] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Lanka BPO",
+        "jobRole": "Technical Support",
+        "vacancy": "Not Available",
+        "qualification": "Diploma in IT",
+        "contact": "032 3167890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.86962245, 7.203249107] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Smart Choice Express",
+        "jobRole": "WordPress Developer",
+        "vacancy": "Available",
+        "qualification": "O/L + Portfolio",
+        "contact": "032 3178901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82913187, 8.036461751] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "ICT & Software",
+        "industry": "Sri Lanka Telecom",
+        "jobRole": "Fiber Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Networking)",
+        "contact": "032 3189012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83191594, 8.029827096] }
+    }
+  ]
+}

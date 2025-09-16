@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Seylan Bank",
+        "jobRole": "Branch Manager",
+        "vacancy": "Not Available",
+        "qualification": "MBA + 5 Yrs Experience",
+        "contact": "032 2990123"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.82973128, 8.031989007] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "HNB",
+        "jobRole": "Credit Analyst",
+        "vacancy": "Available",
+        "qualification": "Degree in Finance",
+        "contact": "032 3001234"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83062714, 8.028212304] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "LOLC Finance",
+        "jobRole": "Account Executive",
+        "vacancy": "Available",
+        "qualification": "A/L + NVQ Level 4 (Accounting)",
+        "contact": "032 3012345"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.84091314, 8.02678856] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "People's Leasing",
+        "jobRole": "Finance Officer",
+        "vacancy": "Not Available",
+        "qualification": "Diploma in Financial Management",
+        "contact": "032 3023456"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83767883, 8.027197734] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Co-op Bank",
+        "jobRole": "Teller",
+        "vacancy": "Available",
+        "qualification": "O/L + NVQ Level 3",
+        "contact": "032 3034567"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83606414, 8.025832584] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Sri Lanka Insurance",
+        "jobRole": "Claims Processor",
+        "vacancy": "Available",
+        "qualification": "A/L + Insurance Diploma",
+        "contact": "032 3045678"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83287664, 8.028938749] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "NDB Bank",
+        "jobRole": "Investment Advisor",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Economics",
+        "contact": "032 3056789"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83749085, 8.027271881] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Sanasa Development Bank",
+        "jobRole": "Microfinance Officer",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Microfinance)",
+        "contact": "032 3067890"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83190649, 8.030113714] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Softlogic Finance",
+        "jobRole": "Debt Recovery Agent",
+        "vacancy": "Available",
+        "qualification": "O/L + Training Certificate",
+        "contact": "032 3078901"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83992364, 8.026838844] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Management & Finance",
+        "industry": "Union Bank",
+        "jobRole": "Audit Assistant",
+        "vacancy": "Available",
+        "qualification": "Diploma in Financial Management",
+        "contact": "032 3089012"
+      },
+      "geometry": { "type": "Point", "coordinates": [79.83786906, 8.027906527] }
+    }
+  ]
+}

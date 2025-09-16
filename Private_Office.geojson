@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "LOLC Holdings",
+        "jobRole": "Accountant",
+        "vacancy": "Available",
+        "qualification": "Degree in Accounting",
+        "contact": "077 3456789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.84107762,
+          8.037580268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Cargills",
+        "jobRole": "Sales Executive",
+        "vacancy": "Not Available",
+        "qualification": "A/L + NVQ Level 3 (Marketing)",
+        "contact": "078 1234567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83773242,
+          8.027449191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Singer Sri Lanka",
+        "jobRole": "Customer Service Rep",
+        "vacancy": "Available",
+        "qualification": "O/L + NVQ Level 2",
+        "contact": "077 4567890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8377056,
+          8.027486374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Dialog Axiata",
+        "jobRole": "Marketing Officer",
+        "vacancy": "Available",
+        "qualification": "Diploma in Marketing",
+        "contact": "077 5678901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83946513,
+          8.04108449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "CIB Shopping Center",
+        "jobRole": "Warehouse Supervisor",
+        "vacancy": "Not Available",
+        "qualification": "NVQ Level 4 (Logistics)",
+        "contact": "032 2389012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.79608822,
+          7.575621835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Seylan Bank",
+        "jobRole": "Loan Officer",
+        "vacancy": "Available",
+        "qualification": "Degree in Finance",
+        "contact": "077 6789012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.82968836,
+          8.031893395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "HNB",
+        "jobRole": "IT Support Staff",
+        "vacancy": "Available",
+        "qualification": "Diploma in IT",
+        "contact": "078 2345678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.83133524,
+          8.032249285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Janashakthi Insurance",
+        "jobRole": "Insurance Agent",
+        "vacancy": "Not Available",
+        "qualification": "A/L + NVQ Level 3",
+        "contact": "077 7890123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.84202342,
+          8.026571834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Abans Showroom",
+        "jobRole": "Sales Promoter",
+        "vacancy": "Available",
+        "qualification": "O/L",
+        "contact": "032 2423456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.82797428,
+          8.031973389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Private Office",
+        "industry": "Maliban Distributor",
+        "jobRole": "Delivery Driver",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "077 8901234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85382462,
+          6.968424151
+        ]
+      }
+    }
+  ]
+}

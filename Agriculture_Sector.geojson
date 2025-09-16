@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Deduru Oya Farming Cooperative",
+        "jobRole": "Farm Manager",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Agriculture)",
+        "contact": "032 2445678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.28503798,
+          7.744750432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Puttalam Coconut Research Institute",
+        "jobRole": "Research Assistant",
+        "vacancy": "Not Available",
+        "qualification": "Degree in Agriculture",
+        "contact": "077 9012345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.96305743,
+          7.707191545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Puttalam Coconut Research Institute",
+        "jobRole": "Field Laborer",
+        "vacancy": "Available",
+        "qualification": "No formal education required",
+        "contact": "078 3456789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.88271991,
+          7.420629465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Dole Lanka",
+        "jobRole": "Harvest Supervisor",
+        "vacancy": "Available",
+        "qualification": "O/L + NVQ Level 2",
+        "contact": "032 2478901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.85890763,
+          6.917589437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "CIC Agri",
+        "jobRole": "Seed Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 3 (Horticulture)",
+        "contact": "077 0123456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.90400868,
+          7.091021519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Sugar Cane Juice",
+        "jobRole": "Tractor Operator",
+        "vacancy": "Not Available",
+        "qualification": "O/L + License",
+        "contact": "032 2490123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8372247,
+          8.013304075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "AEN Palm Oil Processing",
+        "jobRole": "Irrigation Technician",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 2 (Irrigation)",
+        "contact": "078 4567890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.20152444,
+          6.589524416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "category": "Agriculture Sector",
+        "industry": "Green Agro Society Lanka Ltd",
+        "jobRole": "Organic Farming Trainer",
+        "vacancy": "Available",
+        "qualification": "NVQ Level 4 (Organic Farming)",
+        "contact": "077 1234567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.92757236,
+          7.692902252
+        ]
+      }
+    }
+  ]
+}

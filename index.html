@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Service and Opportunity Explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(90deg, #1d4e89, #1a73e8);
+      color: white;
+      padding: 15px 20px;
+      font-size: 22px;
+      font-weight: 600;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      letter-spacing: 0.5px;
+    }
+
+    .container { display: flex; height: calc(100vh - 60px); }
+
+    /* Sidebar */
+    .sidebar {
+      width: 320px;
+      background: #ffffff;
+      border-right: 1px solid #ddd;
+      padding: 20px;
+      overflow-y: auto;
+      box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    .sidebar h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: #1d4e89;
+      text-align: center;
+    }
+    .sidebar p { font-weight: bold; margin-bottom: 10px; }
+
+    /* Category buttons */
+    .sidebar button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 8px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    .sidebar button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      opacity: 0.95;
+    }
+    .sidebar button:active {
+      transform: scale(0.97);
+    }
+
+    /* Feedback Section */
+    .feedback-section {
+      margin-top: 20px;
+      padding: 15px;
+      border-top: 2px solid #eee;
+      background: #fafafa;
+      border-radius: 8px;
+      box-shadow: inset 0 0 4px rgba(0,0,0,0.05);
+    }
+    .feedback-section h3 {
+      margin-bottom: 10px;
+      color: #333;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .feedback-section input,
+    .feedback-section textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      transition: border 0.2s;
+    }
+    .feedback-section input:focus,
+    .feedback-section textarea:focus {
+      outline: none;
+      border-color: #1a73e8;
+      box-shadow: 0 0 4px rgba(26,115,232,0.3);
+    }
+    .feedback-section textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    .feedback-section button {
+      border: none;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .feedback-section button:hover { transform: translateY(-1px); }
+    .feedback-section button:active { transform: scale(0.97); }
+
+    /* Rating Tiles */
+    .tile-options {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin: 10px 0;
+    }
+    .tile-options label {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      background: #f9f9f9;
+      transition: all 0.25s ease;
+      user-select: none;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .tile-options input { display: none; }
+    .tile-options input:checked + span {
+      background: #1a73e8;
+      color: white;
+      border-color: #1a73e8;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(26,115,232,0.4);
+    }
+    .tile-options span {
+      display: block; width: 100%; height: 100%; border-radius: 6px;
+    }
+
+    /* Map */
+    #map { flex: 1; height: 100%; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">🌍 Service and Opportunity Explorer</div>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>Job Categories</h2>
+      <p>Filter by Job Category</p>
+      <!-- category buttons -->
+      <button style="background:#1d4e89" onclick="showCategory('Government Institutions')">Government Institutions</button>
+      <button style="background:#f28b82" onclick="showCategory('Private Office')">Private Office</button>
+      <button style="background:#34a853" onclick="showCategory('Agriculture Sector')">Agriculture Sector</button>
+      <button style="background:#1a73e8" onclick="showCategory('Fisheries')">Fisheries</button>
+      <button style="background:#f65e39" onclick="showCategory('Hotel/Restaurant')">Hotel/Restaurant</button>
+      <button style="background:#fbbc05;color:black" onclick="showCategory('Construction')">Construction</button>
+      <button style="background:#009688" onclick="showCategory('Hospital')">Hospital</button>
+      <button style="background:#42a5f5" onclick="showCategory('Education Centers')">Education Centers</button>
+      <button style="background:#003366" onclick="showCategory('Management & Finance')">Management & Finance</button>
+      <button style="background:#8e24aa" onclick="showCategory('ICT & Software')">ICT & Software</button>
+      <button style="background:#d84315" onclick="showCategory('Transport/Logistics')">Transport/Logistics</button>
+      <button style="background:#26c6da" onclick="showCategory('Cleaning & Maintenance')">Cleaning & Maintenance</button>
+      <button style="background:#555" onclick="showAll()">Show All</button>
+
+      <!-- Feedback Section -->
+      <div class="feedback-section">
+        <h3>Give Feedback</h3>
+        <form id="feedbackForm" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfCqw2zEeIqhfR28vNb148MtUKjYY7fSCNfDzYMltp2eDxWuQ/formResponse" method="POST" target="_blank">
+          <input type="text" name="entry.2009392915" id="siteNameForm" placeholder="Site Name" required />
+
+          <p><b>Select Rating:</b></p>
+          <div class="tile-options">
+            <label><input type="radio" name="entry.924320344" value="Very Bad" required><span>Very Bad</span></label>
+            <label><input type="radio" name="entry.924320344" value="Poor"><span>Poor</span></label>
+            <label><input type="radio" name="entry.924320344" value="Average"><span>Average</span></label>
+            <label><input type="radio" name="entry.924320344" value="Good"><span>Good</span></label>
+            <label><input type="radio" name="entry.924320344" value="Excellent"><span>Excellent</span></label>
+          </div>
+
+          <textarea name="entry.3415806" id="feedbackMsgForm" placeholder="Write your feedback..." required></textarea>
+          <div style="display:flex; justify-content:space-between;">
+            <button type="submit" style="background:#34a853;color:white;width:48%">Submit</button>
+            <button type="button" style="background:#f44336;color:white;width:48%" onclick="clearFeedbackForm()">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div id="map"></div>
+  </div>
+
+  <script>
+    const map = L.map('map').setView([8.0362, 79.8283], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap', maxZoom: 19 }).addTo(map);
+    const layers = {};
+    function loadEmployeeLayer(geojsonPath, iconPath, categoryName, iconSize=[20,20]) {
+      const customIcon = L.icon({
+        iconUrl: iconPath, iconSize: iconSize,
+        iconAnchor: [iconSize[0]/2, iconSize[1]/2],
+        popupAnchor: [0, -iconSize[1]/2]
+      });
+      fetch(geojsonPath)
+        .then(r => r.json())
+        .then(data => {
+          const geoLayer = L.geoJSON(data, {
+            pointToLayer: (f, latlng) => L.marker(latlng, { icon: customIcon }),
+            onEachFeature: (f, layer) => {
+              const name = f.properties.industry || "Unknown Site";
+              const category = f.properties.category || "Unknown Category";
+              const job = f.properties.jobRole || "N/A";
+              const vacancy = f.properties.vacancy || "N/A";
+              const qualification = f.properties.qualification || "N/A";
+              const contact = f.properties.contact || "N/A";
+              const popupContent = `
+                <b>Site:</b> ${name}<br>
+                <b>Category:</b> ${category}<br>
+                <b>Job Role:</b> ${job}<br>
+                <b>Vacancy:</b> ${vacancy}<br>
+                <b>Qualification:</b> ${qualification}<br>
+                <b>Contact:</b> ${contact}<br>
+                <button onclick="openFeedback('${name}')">💬 Give Feedback</button>
+                <button onclick="window.open('https://docs.google.com/spreadsheets/d/15bBpyW3NQyzUV6PUH5k36tm3qqkoXBb7wigllyEprIY/edit?usp=sharing','_blank')">📖 Previous Feedback</button>
+              `;
+              layer.bindPopup(popupContent);
+            }
+          });
+          layers[categoryName] = geoLayer;
+          geoLayer.addTo(map);
+        });
+    }
+    loadEmployeeLayer('Hotel_Restaurant.geojson','hotel.png','Hotel/Restaurant');
+    loadEmployeeLayer('Government_Institution.geojson','gov.png','Government Institutions');
+    loadEmployeeLayer('Private_Office.geojson','pv.png','Private Office');
+    loadEmployeeLayer('Agriculture_Sector.geojson','agri.png','Agriculture Sector');
+    loadEmployeeLayer('Fisheries.geojson','fish.png','Fisheries');
+    loadEmployeeLayer('Construction.geojson','cons.png','Construction');
+    loadEmployeeLayer('Hospital.geojson','hos.png','Hospital');
+    loadEmployeeLayer('Education_Centers.geojson','edu.png','Education Centers');
+    loadEmployeeLayer('ICT_and_Software.geojson','ict.png','ICT & Software');
+    loadEmployeeLayer('Transport_Logistics.geojson','trans.png','Transport/Logistics');
+    loadEmployeeLayer('Cleaning_and_Maintenance.geojson','clean.png','Cleaning & Maintenance');
+    loadEmployeeLayer('Management_and_Finance.geojson','finan.png','Management & Finance');
+    function showCategory(cat) {
+      Object.values(layers).forEach(l => map.removeLayer(l));
+      if (layers[cat]) layers[cat].addTo(map);
+    }
+    function showAll() {
+      Object.values(layers).forEach(l => map.addLayer(l));
+    }
+    function openFeedback(site) {
+      document.getElementById("siteNameForm").value = site;
+      document.getElementById("feedbackForm").scrollIntoView({ behavior: 'smooth' });
+    }
+    function clearFeedbackForm() {
+      document.getElementById("siteNameForm").value = "";
+      document.querySelectorAll('input[name="entry.94940249"]').forEach(r => r.checked = false);
+      document.getElementById("feedbackMsgForm").value = "";
+    }
+  </script>
+</body>
+</html>
